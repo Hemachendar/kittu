@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Sample_Suite">
+  <test thread-count="5" name="Example_Test">
+  <parameter name="browser" value="Chrome"></parameter>
+    <classes>
+      <class name="Marvenproject.MFirstClass.TC003"/>
+    </classes>
+  </test> <!-- Example_Test -->
+</suite> <!-- Sample_Suite -->

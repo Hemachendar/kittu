@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="firstSuite" parallel="tests">
+  <test thread-count="5" name="CHROME">
+  
+  <parameter name="browser" value="CHROME"></parameter>
+    <classes>
+  
+      <class name="browsing.TestNG1"/>
+      <class name="browsing.SampleTest"/>
+    </classes>
+  </test> <!-- firstTest -->
+  
+  <test thread-count="5" name="FIREFOX">
+  <parameter name="browser" value="FIREFOX"></parameter>
+    <classes>
+      
+      <class name="browsing.TestNG1"/>
+      <class name="browsing.SampleTest"/>
+    </classes>
+  </test> <!-- firstTest -->
+  
+  <test thread-count="5" name="IE">
+  <parameter name="browser" value="IE"></parameter>
+    <classes>
+      
+      <class name="browsing.TestNG1"/>
+      <class name="browsing.SampleTest"/>
+    </classes>
+  </test> <!-- firstTest -->
+</suite> <!-- firstSuite -->

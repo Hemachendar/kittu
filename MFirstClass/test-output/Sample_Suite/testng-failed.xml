@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Sample_Suite]">
+  <test name="Example_Test(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="Marvenproject.MFirstClass.TC003">
+        <methods>
+          <include name="endprocess"/>
+          <include name="custemerregistration"/>
+          <include name="startprocess"/>
+        </methods>
+      </class> <!-- Marvenproject.MFirstClass.TC003 -->
+    </classes>
+  </test> <!-- Example_Test(failed) -->
+</suite> <!-- Failed suite [Sample_Suite] -->

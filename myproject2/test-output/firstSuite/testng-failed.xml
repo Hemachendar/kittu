@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [firstSuite]" parallel="tests">
+  <test thread-count="5" name="FIREFOX(failed)" parallel="tests">
+    <parameter name="browser" value="FIREFOX"/>
+    <classes>
+      <class name="browsing.SampleTest">
+        <methods>
+          <include name="login"/>
+          <include name="startprocess"/>
+          <include name="endprocess"/>
+        </methods>
+      </class> <!-- browsing.SampleTest -->
+      <class name="browsing.TestNG1">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="f"/>
+        </methods>
+      </class> <!-- browsing.TestNG1 -->
+    </classes>
+  </test> <!-- FIREFOX(failed) -->
+  <test thread-count="5" name="IE(failed)" parallel="tests">
+    <parameter name="browser" value="IE"/>
+    <classes>
+      <class name="browsing.SampleTest">
+        <methods>
+          <include name="login"/>
+          <include name="startprocess"/>
+          <include name="endprocess"/>
+        </methods>
+      </class> <!-- browsing.SampleTest -->
+      <class name="browsing.TestNG1">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="f"/>
+        </methods>
+      </class> <!-- browsing.TestNG1 -->
+    </classes>
+  </test> <!-- IE(failed) -->
+  <test thread-count="5" name="CHROME(failed)" parallel="tests">
+    <parameter name="browser" value="CHROME"/>
+    <classes>
+      <class name="browsing.SampleTest">
+        <methods>
+          <include name="login"/>
+          <include name="startprocess"/>
+          <include name="endprocess"/>
+        </methods>
+      </class> <!-- browsing.SampleTest -->
+      <class name="browsing.TestNG1">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="f"/>
+        </methods>
+      </class> <!-- browsing.TestNG1 -->
+    </classes>
+  </test> <!-- CHROME(failed) -->
+</suite> <!-- Failed suite [firstSuite] -->
