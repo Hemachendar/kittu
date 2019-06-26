@@ -1,0 +1,22 @@
+#
+browser
+c=chrome
+g=gecko
+i=ie
+e=edge
+
+
+urls
+
+fb=https://www.facebook.com
+amzn=https://www.amazon.in
+flpkt =https//www.flipkart.com
+hdfc=https://www.hdfc.com
+
+
+
+
+
+
+
+

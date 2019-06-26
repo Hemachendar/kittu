@@ -1,0 +1,9 @@
+gbrowser = gecko
+cbrowser1=chrome
+ibrowser2=ie
+
+ urlf  = https://www.facebook.com
+ urla=https://www.amazon.com
+ urlm=https://www.myntra.com
+ urlfl=https://www.flipkart.com
+ url=http://automationpractice.com/index.php

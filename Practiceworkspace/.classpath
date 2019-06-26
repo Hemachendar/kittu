@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk1.8.0_181"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="C:/Users/Shreyu/Desktop/selenium-server-standalone-3.6.0.jar"/>
+	<classpathentry kind="lib" path="D:/drivers/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="D:/drivers/extentreports-2.41.2.jar" sourcepath="C:/Users/Shreyu/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2-sources.jar"/>
+	<classpathentry kind="lib" path="D:/drivers/freemarker-2.3.23.jar"/>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

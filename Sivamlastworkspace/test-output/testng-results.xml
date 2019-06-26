@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="17784" started-at="2019-05-29T09:59:03Z" finished-at="2019-05-29T09:59:21Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="17784" started-at="2019-05-29T09:59:03Z" finished-at="2019-05-29T09:59:21Z">
+      <class name="com.com.session.HandlingWindows">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.com.session.HandlingWindows@6ea12c19]" name="beforeMethod" is-config="true" duration-ms="6577" started-at="2019-05-29T15:29:03Z" finished-at="2019-05-29T15:29:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="f()[pri:0, instance:com.com.session.HandlingWindows@6ea12c19]" name="f" duration-ms="10021" started-at="2019-05-29T15:29:10Z" finished-at="2019-05-29T15:29:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.com.session.HandlingWindows@6ea12c19]" name="afterMethod" is-config="true" duration-ms="1164" started-at="2019-05-29T15:29:20Z" finished-at="2019-05-29T15:29:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.com.session.HandlingWindows -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [practice Suite]">
+  <test thread-count="5" name="practice Test(failed)">
+    <classes>
+      <class name="com.com.firstselenium.Browserlaunchtest2">
+        <methods>
+          <include name="Endprocesss"/>
+          <include name="findelement"/>
+          <include name="startProcess"/>
+        </methods>
+      </class> <!-- com.com.firstselenium.Browserlaunchtest2 -->
+    </classes>
+  </test> <!-- practice Test(failed) -->
+</suite> <!-- Failed suite [practice Suite] -->
