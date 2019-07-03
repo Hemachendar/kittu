@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="Listeners.TestListener"/>
+    <listener class-name="Listeners.AnnotationTransformer"/>
+  </listeners>
+  <test thread-count="5" name="firefoxTest(failed)">
+    <parameter name="ABSAASSESMENT" value="firefox"/>
+    <classes>
+      <class name="Way2Automation.Functionality">
+        <methods>
+          <include name="OpenBrowser"/>
+          <include name="fun"/>
+        </methods>
+      </class> <!-- Way2Automation.Functionality -->
+    </classes>
+  </test> <!-- firefoxTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
